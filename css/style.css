@@ -1,0 +1,95 @@
+/*Text*/
+h1, h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*Navigation bar*/
+
+.customNav{
+    position:fixed;
+    width: 100%;
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+nav-item{
+    margin: 0px 15px;
+}
+
+/* Navigation dropdown menu */
+.dropdown menu{
+    background-color: transparent !important;
+    background-size: cover;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    color: lightblue;
+    text-decoration: none;
+    background: blanchedalmond;
+.cardConatiner{
+    margin-bottom: 15px;
+}
+
+/* Jumbotron*/
+.jumbotron{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Jombotron copy*/
+.jumboCopy {
+    width: :70%;
+    min-width: 500px;
+    max-width: 700px;
+    text-align: center;
+}
+
+/* Cards*/
+.content{
+    padding: 50px;
+}
+
+.sectionHeading{
+    padding: 0px 30px 30px 30px;
+}
+
+.cardContainer{
+    text-align: center;
+}
+
+/* Work*/
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    margin: 0 auto;
+}
+/* Footer*/
+footer{
+  text-align: center;
+}
+
+.cardContainer{
+    margin-top: 20px;
+}
+
+.card{
+    margin: 0 auto;
+}

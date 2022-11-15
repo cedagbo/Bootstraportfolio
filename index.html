@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <!--Required meta tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Chris-Eric Dagbo // Web Developer</title>
+
+</head>
+
+<body>
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#work">Work</a>
+                    <a class="dropdown-item" href="#skills">Skills</a>
+                    <a class="dropdown-item" href="#about">About Me</a>
+                    <a class="dropdown-item" href="#contact">Contact Me</a>            
+                </div>
+            </li>
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
+    <!--End navigation bar-->
+    
+    <!--Jumbotron-->
+    <div class="jumbotron">
+        <h1 class="display-4">Chris-Eric Dagbo</h1>
+        <img src="./images/free-image.svg" width="300" height="400" alt="profile-image">
+        <p class="lead">Hello, my name is Chris-Eric Dagbo. Please, feel free to go through this webpage and find out more about me.</p>
+        <hr class="my-4">
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#about" role="button">Learn more</a>
+        </p>
+      </div>
+      <!--End Jumbotron-->
+      
+    <!--Work section-->
+    <div class="container-fluid content" id="work">
+        <h2 class="work-section">Work</h2>
+        <br/>
+        <div class="row">
+
+            <!--Horiseon Inc-->
+            <div class="cardContainer col-sm-12 col-md-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./images/Horiseon-Inc.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Horiseon-Inc</h5>
+                      <p class="card-text">Horiseon is a digital platform that helps businesses market their products and services.</p>
+                      <a href="https://github.com/cedagbo/Horiseon-Inc" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <!--End Horiseon-->
+
+            <!--Card 2-->
+            <div class="cardContainer col-sm-12 col-md-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./images/free-image.svg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Coming soon</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <!--End Card 2-->
+
+            <!--Portfolio-->
+            <div class="cardContainer col-sm-12 col-md-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./images/portfolio.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Portfolio</h5>
+                      <p class="card-text">Portfolio is a project encompassing a set of work to provide evidence of skills in a given field.</p>
+                      <a href="https://github.com/cedagbo/portfolio" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <!--End Portfolio-->
+        </div>
+    </div>
+
+    <!--Skills section-->
+    <br/>
+    <div class="container-fluid content" id="skills">
+        <h2 class="sectionHeading">Skills we expect to learn from the Bootcamp</h2>
+        <ul>
+            <li>A strong understanding of HTML, CSS, and JavaScript</li>
+            <li>Knowledge of best practices for modern web technologies</li>
+            <li>Focus on responsiveness across multiple devices</li>
+            <li>The ability to work with different front-end frameworks such as Bootstrap and React</li>
+            <li>A strong sense of design and an eye for creating beautiful user interfaces</li>
+            <li>Great communication and collaboration to work effectively with designers and product management teams</li>
+            <li>Konwledge of Figma to optimise the user experience</li>
+            <li>Develop and maintain the user interface</li>
+            <li>Think like a developer to acquire excellent problem-solving skills</li>
+        </ul>
+    </div>
+
+    <!--About section-->
+    <br/>
+    <div class="about" id="about">
+        <h2 class="sectionHeading">About Me</h2>
+        <div id="about-me">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, delectus corrupti. Laboriosam pariatur incidunt aspernatur distinctio consectetur nobis magnam nulla hic dicta, consequatur alias, deleniti beatae dolorem eveniet dolores molestiae.</p>
+        </div>
+    </div>
+    
+    <!--Contact section-->
+    <div class="contact" id="contact">
+        <h2 class="Contact">Contact Me</h2>
+        <div id="contact-details">
+            <ul>
+                <li><a href="#contact">555.555.555</a></li>
+                <li><a href="#contact">lernantino@website.com</a></li>
+                <li><a href="https://www.twitter.com/lernantino">Twitter</a></li>
+                <li><a href="https://www.spotify.com/lernantino">Spotify</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer">
+        <p>
+            &copy;2022 Chris-Eric Dagbo
+        </p>
+    </footer>
+
+    <!--Optional JavaScript-->
+    <!--jQuery first, then Popper.js, then Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
